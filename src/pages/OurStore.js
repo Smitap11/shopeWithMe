@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta';
 import ReactStars from "react-rating-stars-component";
+import { ProductCard } from '../components/ProductCard';
 
 const OurStore = () => {
+  const [grid, setGrid] = useState(4);
+  //alert(grid);
+  
   return (
     <>
       <Meta title="Our Store" />
@@ -223,13 +227,26 @@ const OurStore = () => {
                   <div className="grid-wrapper d-flex align-items-center gap-10">
                     <p className="totalProducts mb-0">21 Products</p>
                     <div className="d-flex gap-10 align-items-center grid">
-                      <img src="images/grid1.png" className="d-flex img-fluid" alt="grid" />
-                      <img src="images/grid2.png" className="d-flex img-fluid" alt="grid" />
-                      <img src="images/grid3.png" className="d-flex img-fluid" alt="grid" />
-                      <img src="images/grid4.png" className="d-flex img-fluid" alt="grid" />
+                      <img src="images/grid1.png" 
+                        onClick={() => {
+                          setGrid(4);
+                        }} 
+                        className="d-flex img-fluid" alt="grid" />
+                      <img src="images/grid2.png" onClick={() => {
+                        setGrid(3);
+                      }} className="d-flex img-fluid" alt="grid" />
+                      <img src="images/grid3.png" onClick={() => {
+                        setGrid(2);
+                      }} className="d-flex img-fluid" alt="grid" />
+                      <img src="images/grid4.png" onClick={() => {
+                        setGrid(1);
+                      }} className="d-flex img-fluid" alt="grid" />
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="products-list pb-4">
+                <ProductCard grid={grid} />
               </div>
             </div>
           </div>

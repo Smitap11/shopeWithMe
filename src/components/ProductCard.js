@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactStars from "react-rating-stars-component";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 export const ProductCard = () => {
+    let location = useLocation();
+
   return (
     <div className="col-2">
         <Link className="product-card position-relative">
