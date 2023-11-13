@@ -239,6 +239,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
   overflow: hidden;
+  width: 100%;
 }
 .product-card:hover .action-bar{
   right: 10px;
@@ -369,8 +370,45 @@ a {
   background-color: #f2f2f2;
   padding: 5px;
   border-radius: 3px;
+  cursor: pointer;
 }
-
+.grid-wrapper .grid img:hover {
+  background-color: #9bbfec;
+}
+.grid-12 {
+  width: 100%
+}
+.grid-6 {
+  width: 49%
+}
+.grid-4 {
+  width: 32%
+}
+.grid-3 {
+  width: 24%
+}
+.grid-12 .product-card {
+  display: flex;
+  gap: 20px;
+}
+.grid-6 .product-image {
+  width: 100%;
+}
+.grid-6 .product-image img {
+  margin: auto;
+  display: block;
+}
+.grid-12 .product-card .product-image {
+  width: 270px;
+  height: auto;
+}
+.grid-12 .action-bar {  
+  top: 15%;
+}
+.product-card p.product-description {
+  font-size: 13px;
+  color: var(--color-777777);
+}
 
 
 

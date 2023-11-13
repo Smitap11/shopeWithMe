@@ -229,24 +229,26 @@ const OurStore = () => {
                     <div className="d-flex gap-10 align-items-center grid">
                       <img src="images/grid1.png" 
                         onClick={() => {
-                          setGrid(4);
+                          setGrid(3);
                         }} 
                         className="d-flex img-fluid" alt="grid" />
                       <img src="images/grid2.png" onClick={() => {
-                        setGrid(3);
+                        setGrid(4);
                       }} className="d-flex img-fluid" alt="grid" />
                       <img src="images/grid3.png" onClick={() => {
-                        setGrid(2);
+                        setGrid(6);
                       }} className="d-flex img-fluid" alt="grid" />
                       <img src="images/grid4.png" onClick={() => {
-                        setGrid(1);
+                        setGrid(12);
                       }} className="d-flex img-fluid" alt="grid" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="products-list pb-4">
-                <ProductCard grid={grid} />
+                <div className="d-flex gap-10 flex-wrap">
+                  <ProductCard grid={grid} />
+                </div>
               </div>
             </div>
           </div>
