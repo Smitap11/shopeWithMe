@@ -49,25 +49,25 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between mb-0">
                 <div className='mb-0'>
-                  <Link className="d-flex align-items-center space-left-10 text-white mb-0">
+                  <Link to="/compareProducts" className="d-flex align-items-center space-left-10 text-white mb-0">
                   <img src="/images/compare.png" alt="compare" />
                     <span className="space-left-10 mb-0">Compare <br/> products </span>
                   </Link>
                 </div>
                 <div className='mb-0'>
-                  <Link className="d-flex align-items-center space-left-10 text-white mb-0">
+                  <Link to="/wishlist" className="d-flex align-items-center space-left-10 text-white mb-0">
                   <img src="/images/whishlist.png" alt="wishlist" />
                     <span className='space-left-10 mb-0'>Favourite <br/> wishlist </span>
                   </Link>
                 </div>
                 <div className='mb-0'>
-                  <Link className="d-flex align-items-center space-left-10 text-white mb-0">
+                  <Link to="/login" className="d-flex align-items-center space-left-10 text-white mb-0">
                   <img src="/images/user.png" alt="user" />
                     <span className='space-left-10 mb-0'>Sign <br/> In </span>
                   </Link>
                 </div>
                 <div className='mb-0'>
-                  <Link className="d-flex align-items-center space-left-10 text-white mb-0">
+                  <Link to="/cart" className="d-flex align-items-center space-left-10 text-white mb-0">
                   <img src="/images/shopping-cart.png" alt="cart" />
                     <div className="d-flex flex-column space-left-10 mb-0">
                       <span className="badge bg-white text-dark">0</span>
