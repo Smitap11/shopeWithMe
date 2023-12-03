@@ -13,7 +13,7 @@ export const BlogCard = () => {
             <p className="desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
             </p>
-            <Link to="/" className="button">
+            <Link to="/blog/:id" className="button">
                 Read More
             </Link>
         </div>

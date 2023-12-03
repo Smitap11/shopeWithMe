@@ -88,9 +88,11 @@ const Footer = () => {
         </div>
       </footer>
       <footer className="py-3">
-        <div className="row">
-          <div className="col-12">
-            <p className="mb-0 text-center">&copy; {new Date().getFullYear()}; Powered by Shop with me{" "}</p>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <p className="mb-0 text-center">&copy; {new Date().getFullYear()}; Powered by Shop with me{" "}</p>
+            </div>
           </div>
         </div>
       </footer>
