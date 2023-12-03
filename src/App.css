@@ -531,6 +531,13 @@ border-color: transparent;
   margin-bottom: 20px;
 }
 
+/* Policy Page */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+
 /* Footer */
 footer {
   background-color: var(--color-232f3e);
