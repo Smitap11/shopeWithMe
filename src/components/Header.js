@@ -29,7 +29,7 @@ const Header = () => {
           <div className="row align-items-center mb-0">
             <div className="col-2">
               <h3>
-                <Link className="text-white">ShopWithMe</Link>
+                <Link to="/" className="text-white">ShopWithMe</Link>
               </h3>
             </div>
             <div className="col-5">
@@ -100,7 +100,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/store">Our Store</NavLink>
+                    <NavLink to="/product">Our Store</NavLink>
                     <NavLink to="/blog">Blogs</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                   </div>

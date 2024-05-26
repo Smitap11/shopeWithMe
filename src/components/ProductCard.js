@@ -11,7 +11,7 @@ export const ProductCard = (props) => {
   return (
     <>
         <div className={` ${location.pathname === "/store" ? `grid-${grid}` : "grid-3"} `}>
-            <Link className="product-card position-relative">
+            <Link to=":id" className="product-card position-relative">
                 <div className="wishlist-icon position-absolute">
                     <Link>
                         <img src="images/wishlist.svg" height="15px" width="15px" alt="wishlist" />
