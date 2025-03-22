@@ -12,10 +12,10 @@ const Home = () => {
     <>
       <Meta title={"Shop With Me"} />
       <BreadCrumb title="Shop With Me" />
-      <section className="home-wrapper-1 py-4">
+      <section className="home-wrapper-1 py-4 ">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="left-banner p-2 position-relative">
                 <img
                   src="images/banner-1.png"
@@ -31,7 +31,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="d-flex flex-wrap justify-content-between align-items-center gap-10">
                 <div className="right-banner-1 p-2 position-relative ">
                   <img
@@ -165,7 +165,7 @@ const Home = () => {
       <section className="home-wrapper-3 py-4">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12">
+            <div className="col-md-12">
               <div className="categories d-flex justify-content-between flex-wrap align-items-center">
                 <div className="d-flex align-items-center">
                   <div>
@@ -468,16 +468,16 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <BlogCard />
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <BlogCard />
             </div>
           </div>

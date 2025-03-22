@@ -27,12 +27,12 @@ const Header = () => {
       <header className="header-upper py-3">
         <div className="container-xxl">
           <div className="row align-items-center mb-0">
-            <div className="col-2">
+            <div className="col-md-2 col-sm-6">
               <h3>
                 <Link to="/" className="text-white">ShopWithMe</Link>
               </h3>
             </div>
-            <div className="col-5">
+            <div className="col-md-5 col-sm-6">
               <div className="input-group mb-0">
                 <input
                   type="text"
@@ -46,7 +46,7 @@ const Header = () => {
                 </span>
               </div>
             </div>
-            <div className="col-5">
+            <div className="col-md-5 col-sm-12">
               <div className="header-upper-links d-flex align-items-center justify-content-between mb-0">
                 <div className='mb-0'>
                   <Link to="/compareProducts" className="d-flex align-items-center space-left-10 text-white mb-0">
@@ -66,7 +66,7 @@ const Header = () => {
                     <span className='space-left-10 mb-0'>Sign <br/> In </span>
                   </Link>
                 </div>
-                <div className='mb-0'>
+                <div className='mb-0 cart'>
                   <Link to="/cart" className="d-flex align-items-center space-left-10 text-white mb-0">
                   <img src="/images/shopping-cart.png" alt="cart" />
                     <div className="d-flex flex-column space-left-10 mb-0">
@@ -91,9 +91,9 @@ const Header = () => {
                       <img src="images/cat.png" height="15px" width="15px" /> <span className="me-5 d-inline-block">&nbsp; Categories &nbsp;</span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><Link className="dropdown-item text-white" to="">Action</Link></li>
-                      <li><Link className="dropdown-item text-white" to="">Another action</Link></li>
-                      <li><Link className="dropdown-item text-white" to="">Something else here</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Best Sellers</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Top Deals</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Gifting</Link></li>
                     </ul>
                   </div>
                 </div>  

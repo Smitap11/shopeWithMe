@@ -696,3 +696,77 @@ footer .input-group-text {
 .cart-data h5.price {
   font-size: 14px;
 } 
+
+
+
+/* Mobile View */
+@media (max-width: 768px) {
+  
+  .right-banner-1 {
+    width: 47%;
+  }
+  .right-banner-1-content {
+    top: 15%;
+    left: 10%;
+  }
+  .right-banner-1-content h4 {
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 8px;
+    color: var(--color-bf4800);
+    margin: 0 0 5px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+  }
+  .right-banner-1-content h5 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-transform: none;
+  }
+  .right-banner-1-content p {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--color-131921);
+    letter-spacing: 0.2;
+  }
+  .right-banner-1-content h6 {
+    color: var(--color-bf4800);
+  }
+
+  .services {
+    display: none !important;
+  }
+
+  .home-wrapper-3 .categories > div {
+    width: 50%;
+  }
+    
+  .grid-3 {
+    width: 49%
+  }
+
+  .home-famouse-wrapper{
+    display: none;
+  }
+
+  .header-upper-links {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .cart div {
+    display: none !important;
+  }
+
+  .header-bottom .menu-links a, .header-bottom .dropdown .btn {
+    text-transform: none;
+  }
+
+  .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+  width: 155px
+}
+
+}
+

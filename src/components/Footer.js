@@ -8,13 +8,13 @@ const Footer = () => {
       <footer className="py-3">
         <div className="container-xxl">
           <div className="row align-items-center">
-            <div className="col-5">
+            <div className="col-md-5 col-sm-6">
               <div className="footer-top-data d-flex gap-10 align-items-center">
                 <img src="images/newsletter.png" alt="newsletter" width="30px" height="30px" />
                 <h4 className="mb-0">Sign up for Newsletter</h4>
               </div>
             </div>
-            <div className="col-7">
+            <div className="col-md-7 col-sm-6">
               <div className="input-group">
                   <input
                     type="text"
@@ -35,7 +35,7 @@ const Footer = () => {
       <footer className="py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-4">
+            <div className="col-md-4 col-sm-6">
               <h5 className="mb-4">Contact Us</h5>
               <address className="fs-6 text-white">
                 703/A, Landsend Bldg., <br/> Lokhandwala Complex Andheri (W), <br/> Mumbai, Maharashtra 400053, India
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <h5 className="mb-4">Information</h5>
               <div className="footer-links d-flex flex-column">
                 <Link to="/privacyPolicy" className="py-1 mb-1 text-white">Privacy Policy</Link>
@@ -67,7 +67,7 @@ const Footer = () => {
                 <Link to="/blog" className="py-1 mb-1 text-white">Blogs</Link>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-sm-6">
               <h5 className="mb-4">Account</h5>
               <div className="footer-links d-flex flex-column">
                 <Link to="/aboutUs" className="py-1 mb-1 text-white">About Us</Link>
@@ -75,9 +75,9 @@ const Footer = () => {
                 <Link to="/ContactUs" className="py-1 mb-1 text-white">Contact Us</Link>
               </div>
             </div>
-            <div className="col-2">
+            <div className="col-md-2 col-sm-12 product-links">
               <h5 className="mb-4">Quick Links</h5>
-              <div className="footer-links d-flex flex-column">
+              <div className="footer-links d-flex flex-column col-sm-12">
                 <Link className="py-1 mb-1 text-white">Laptop</Link>
                 <Link className="py-1 mb-1 text-white">Headphones</Link>
                 <Link className="py-1 mb-1 text-white">Tablets</Link>
